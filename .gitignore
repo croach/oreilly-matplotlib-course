@@ -1,0 +1,9 @@
+# Temp files
+*~
+\#*\#
+
+# Downloaded data files
+data
+
+# IPython files
+.ipynb_checkpoints
