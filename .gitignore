@@ -4,3 +4,6 @@
 
 # IPython files
 .ipynb_checkpoints
+
+# Other source code (e.g., basemap, matplotlib, etc.)
+source
