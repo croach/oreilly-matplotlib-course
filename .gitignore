@@ -7,3 +7,6 @@
 
 # Other source code (e.g., basemap, matplotlib, etc.)
 src
+
+# Mac specific files
+.DS_Store
