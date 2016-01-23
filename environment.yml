@@ -1,0 +1,22 @@
+name: mpl-test
+dependencies:
+
+# This will install everything we need for running Jupyter Notebooks
+# with an IPython kernel.
+- jupyter>=1.0.0
+
+# Need version 4.1 or greater of IPython since it has my fix for
+# displaying emtpy figures in a jupyter notebook, but unfortunately,
+# it hasn't been released yet. Once it has, this comment can be
+# removed and the following line can be uncommented.
+# - ipython>=4.1.0
+
+# This course depends on a few of the new features and changes made to
+# matplotlib for the 1.5 release, so guarantee that version as the
+# minimum.
+- matplotlib>=1.5.0
+
+# Any version of these should work just fine.
+- numpy
+- basemap
+- xlrd
