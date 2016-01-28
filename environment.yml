@@ -1,4 +1,4 @@
-name: mpl-test
+name: mpl
 dependencies:
 
 # This will install everything we need for running Jupyter Notebooks
