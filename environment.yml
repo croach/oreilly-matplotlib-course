@@ -3,13 +3,16 @@ dependencies:
 
 # This will install everything we need for running Jupyter Notebooks
 # with an IPython kernel.
+
 - jupyter>=1.0.0
 
 # Need version 4.1 or greater of IPython since it has my fix for
 # displaying emtpy figures in a jupyter notebook, but unfortunately,
-# it hasn't been released yet. Once it has, this comment can be
-# removed and the following line can be uncommented.
+# it hasn't been formally released yet---just a release candidate.
+# Once it's been released, the following lines can be replaced with
 # - ipython>=4.1.0
+- pip:
+    - ipython>=4.1.0rc1
 
 # This course depends on a few of the new features and changes made to
 # matplotlib for the 1.5 release, so guarantee that version as the
