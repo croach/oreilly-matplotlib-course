@@ -24,3 +24,8 @@ dependencies:
 - basemap
 - xlrd
 - seaborn
+- bokeh
+- mpld3
+
+- pip:
+    - plotly
