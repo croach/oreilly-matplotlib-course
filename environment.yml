@@ -1,15 +1,17 @@
 name: mpl
 dependencies:
 
-# This will install everything we need for running Jupyter Notebooks
-# with an IPython kernel.
-
-- jupyter>=1.0.0
+# This will install everything we need for running Jupyter Notebooks with an
+# IPython kernel.
+- jupyter >= 1.0.0
 
 # This course depends on a few of the new features and changes made to
-# matplotlib for the 1.5 release, so guarantee that version as the
-# minimum.
-- matplotlib>=1.5.0
+# matplotlib for the 1.5 release, so guarantee that version as the minimum.
+- matplotlib >= 1.5.0
+
+# We need version 4.1 or greater of IPython since it has my fix for displaying
+# emtpy figures in a jupyter notebook.
+- ipython >= 4.1.0
 
 # Any version of these should work just fine.
 - numpy
@@ -19,12 +21,7 @@ dependencies:
 - bokeh
 - mpld3
 
+# The plotly library isn't installable via conda as of this recording, so
+# install it through pip.
 - pip:
     - plotly
-
-    # Need version 4.1 or greater of IPython since it has my fix for
-    # displaying emtpy figures in a jupyter notebook, but
-    # unfortunately, it hasn't been formally released yet---just a
-    # release candidate.  Once it's been released, the following lines
-    # can be replaced with `- ipython>=4.1.0`
-    - ipython>=4.1.0rc1
