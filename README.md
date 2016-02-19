@@ -1,8 +1,8 @@
-# Mastering Matplotlib
+## Mastering Matplotlib
 
 Jupyter notebooks for my matplotlib course from O'Reilly Media.
 
-# Setting Up Your Environment
+## Setting Up Your Environment
 
 All of the code for this course relies heavily on elements from the
 python scientific stack. Unlike most python packages, those used by
@@ -19,14 +19,14 @@ So, assuming you have Anaconda installed, you can simply run the
 create a new environment, called `mpl`, and install all of the
 packages you need.
 
-% conda env create -f environment.yml
+`% conda env create -f environment.yml`
 
 Once the `create` command finishes, you can activate the new
 environment by calling `source activate mpl`.
 
-% source activate mpl
+`% source activate mpl`
 
 If everything worked correctly, you should now be able to run the code
 for this course with the following command:
 
-% jupyter notebook
+`% jupyter notebook`
