@@ -1,6 +1,6 @@
 ## Mastering Matplotlib
 
-Jupyter notebooks for my matplotlib course from O'Reilly Media.
+Jupyter notebooks for my [matplotlib course][1] from [O'Reilly Media][2].
 
 ## Setting Up Your Environment
 
@@ -30,3 +30,6 @@ If everything worked correctly, you should now be able to run the code
 for this course with the following command:
 
 `% jupyter notebook`
+
+[1]: http://shop.oreilly.com/product/0636920045632.do
+[2]: http://www.oreilly.com
